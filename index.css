@@ -1,0 +1,263 @@
+body{
+    margin: 0%;
+    position: relative;
+    font-family: 'roboto', sans-serif;
+}
+*:focus{
+    outline: none;
+}
+.nav-bar{
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    background: #fff;
+    border-bottom: 1px solid #d4d0d0;
+    justify-content: center;
+    z-index: 1;
+}
+.nav2{
+    padding: 16px;
+    justify-content: space-between;
+}
+.insta-logo{
+    width: 100px;
+    height: 29px;
+    margin-top: 5px;
+    margin-left: 275px;
+    float: left;
+}
+.text-box{
+    padding: 10px;
+    width: 235px;
+    height: 17px;
+    font-size: 12px;
+    border: none;
+    float: left;
+    border-radius: 7px;
+    background: #efefef;
+    color: #8e8e8e;
+    margin-top: -6px;
+    margin-left: 246px;
+}
+.nav-item{
+    height: 20px;
+    position: relative;
+    width: 221px;
+    margin-left: 950px;
+}
+.item{
+    height: 100%;
+    margin: 5px 10px;
+    
+}
+.profile-pic{
+    border-radius: 50%;
+    height: 25px;
+    margin-left: 235px;
+    margin-top: -30px;
+    float: left;
+}
+.body{
+    width: 100%;
+    height: 2000px;
+    background: #f9f8f8;
+}
+.status-box{
+    width: 608px;
+    height: 113px;
+    float: left;
+    background: #fff;
+    margin: 87px 284px;
+    border: 1px solid #d7d7d7;
+    border-radius: 4px; 
+    overflow: hidden;
+    overflow-x: auto;
+    margin-bottom: 22px;
+}
+.status-box::-webkit-scrollbar{
+    display:none;
+}
+.status-bar{
+    width: 609px;
+    align-items: center;
+    display: flex;
+   
+}
+.pro-pic{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 15px 15px; 
+    float: left;
+}
+.img-class{
+    width:71px ;
+    height: 71px;
+    position: relative;
+    float: left;
+    margin: 18px 17px;
+    border-radius: 50%;
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+}
+.img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin: 3px 3px;
+    border: 3px solid #fff;
+}
+.user-name{
+    font-size: 12.5px;
+    color: #151414;
+    margin: 0px 16px;
+}
+.post-main{
+    height: 800px;
+    width: 609px;
+    float: left;
+    background: #ffff;
+    border: 1px solid #e8e6e6;
+    border-radius: 3px;
+    margin: 4px 282px;
+}
+.post-header{
+    height: 58px;
+    border-bottom: 1px solid #ccc8c8;
+}
+
+.img-post{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin: 6px 15px;
+    border: 3px solid #fff;
+}
+.user-name-post{
+    margin: -42px 66px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.menu{
+    height: 29px;
+    width: 27px;
+    margin: 20px 562px;
+}
+.feed-img{
+    height: 550px;
+    width: 609px;
+}
+.feed_nav{
+    float: left;
+}
+.save{
+    height: 20px;
+    width: 20px;
+    margin: -30px 565px;
+    float: left;
+}
+.nav-item2{
+    height: 20px;
+    position: relative;
+    width: 200px;
+    margin: 7px 8px;
+}
+.caption{
+    height: 60px;
+    width: 250px;
+    margin: 37px -197px;
+    float: left;
+    font-size: 13px;
+}
+
+p span{
+    display: inline-block;
+    margin-bottom:7px;  
+   
+}
+.time{
+    color: #8e8e8e;
+    font-size: 10px;
+}
+.post-footer{
+    height: 52px;
+    width: 609px;
+    margin-top: 90px;
+    border-top: 1px solid #ebe9e9;
+    float: left;
+    background: #fff;
+}
+.smile{
+    float: left;
+    height: 27px;
+    width: 26px;
+    margin: 14px 18px;
+}
+.add-comment{
+    border: none;
+    color: #8e8e8e;
+    font-size: 14px;
+    margin-top: 19px;
+}
+.btn-post{
+    color: rgb(158, 187, 242);
+    background: #fff;
+    border: none;
+    font-weight: bold;
+    margin-left: 300px;
+    font-size: 14px;
+}
+.right-body{
+    height: 510px;
+    width: 330px;
+    float: left;
+    margin: -939px -254px;
+
+}
+.section2{
+    font-size: 15px;
+    margin: -79px 86px;
+    width: 220px;
+}
+.p-class{
+    color: #8e8e8e;
+    margin-top: -15px;
+}
+.switch{
+    color: rgb(57, 177, 241) ;
+    border: none;
+    background: #f9f8f8;
+    font-size: 12px;
+    margin: 35px 262px;
+    font-weight: bold;
+}
+.suggestion{
+    height: 30px;
+    width: 400px;
+    font-size: 13.5px;
+}
+.img2{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 3px 3px;
+    border: 3px solid #fff;
+}
+.txt1{
+    font-weight: bold;
+    color: #8e8e8e;
+}
+.txt2{
+    margin: -29px 277px;
+    width: 43px;
+}
+.privacy{
+    margin-top: 17px;
+}
+.links{
+    color: #acabab;
+    font-size: 12px;
+    text-decoration: none;
+    padding: 3px;
+   
+}
